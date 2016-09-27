@@ -16,6 +16,9 @@ public partial class MenuItems : System.Web.UI.Page
             var stuff = controller.GetRestaurantMenu();
             MenuGridView.DataSource = stuff;
             MenuGridView.DataBind();
+
+            MenuRepeater.DataSource = stuff;
+            MenuRepeater.DataBind();
         }
     }
 }
