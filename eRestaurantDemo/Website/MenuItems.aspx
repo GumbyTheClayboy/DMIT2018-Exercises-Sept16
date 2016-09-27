@@ -2,5 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <h1>Our Menu</h1>
+    <asp:GridView ID="MenuGridView" runat="server">
+
+    </asp:GridView>
 </asp:Content>
 
