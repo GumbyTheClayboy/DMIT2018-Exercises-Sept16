@@ -13,9 +13,9 @@
                         ItemType="eRestaurant.Entities.POCOs.MenuItem" 
                         DataSource="<%# Item.MenuItems %>">
                         <ItemTemplate>
-                            <b><%# Item.CategoryDescription %></b> - 
+                            <b><%# Item.ItemDescription %></b> - 
                             <%# Item.Price.ToString("C") %> - 
-                            <%# Item.Calories %>
+                            <%# Item.Calories %> <br />
                         </ItemTemplate>
                     </asp:Repeater>
                 </blockquote>
